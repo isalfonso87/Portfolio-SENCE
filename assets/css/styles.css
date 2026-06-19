@@ -192,6 +192,18 @@ aside .redes-fondo {
     padding: 20px;
 }
 
+.accordion-button {
+    background-color: #addff1 !important;
+    color: #003152;
+    font-size: large;
+    font-weight: 600;
+}
+
+.accordion-body {
+    background-color: #addff1;
+    color: #003152;
+}
+
 footer {
     grid-area: footer;
     margin-top: 15px;
@@ -221,16 +233,4 @@ h3:hover {
 
 h3 {
     text-align: center;
-}
-
-.accordion-button {
-    background-color: #addff1 !important;
-    color: #003152;
-    font-size: large;
-    font-weight: 600;
-}
-
-.accordion-body {
-    background-color: #addff1;
-    color: #003152;
 }
