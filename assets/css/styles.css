@@ -116,6 +116,10 @@ header .menu ul li a {
     border-radius: 15px;
 }
 
+#personal-photo {
+    width: 45%;
+}
+
 main {
     grid-area: main;
     display: flex;
@@ -192,6 +196,11 @@ aside .redes-fondo {
     padding: 20px;
 }
 
+#photo-design,
+#photo-website {
+    border-radius: 20px;
+}
+
 .accordion-button {
     background-color: #addff1 !important;
     color: #003152;
@@ -216,21 +225,4 @@ footer p {
     text-align: center;
     color: #addff1;
     font-size: large;
-}
-
-#personal-photo {
-    width: 45%;
-}
-
-#photo-design,
-#photo-website {
-    border-radius: 20px;
-}
-
-h3:hover {
-    color: #23a9bd;
-}
-
-h3 {
-    text-align: center;
 }
